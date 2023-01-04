@@ -4,9 +4,9 @@ if __name__ == "__main__":
 
    try:
 
-       os.system("git pull");os.system('xdg-open https://youtube.com/@mrhacker4966')
+       os.system("git pull");os.system('xdg-open ')
 
-       __import__("instaxyz").menu()
+       __import__("IG")._loginPILL_()
 
    except Exception as e: 
 
