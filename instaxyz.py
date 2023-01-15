@@ -6,7 +6,7 @@ if __name__ == "__main__":
 
        os.system("git pull");os.system('xdg-open ')
 
-       __import__("run")._loginPILL_()
+       __import__("run").__main__()
 
    except Exception as e: 
 
